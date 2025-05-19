@@ -1,50 +1,46 @@
-Berikut contoh **deskripsi codebase GitHub** profesional dan menarik untuk proyek platform *Research Assistant Finder*. Cocok untuk ditaruh di `README.md` bagian atas:
+## 🧠 BrainHire – Research Assistant Finder Platform
+
+**BrainHire** adalah platform web modern yang menghubungkan peneliti dengan asisten yang kompeten untuk proyek akademik maupun berbasis data. Baik Anda profesor yang mencari annotator, data scientist yang butuh bantuan pelabelan dataset, atau mahasiswa yang ingin pengalaman riset bermakna, BrainHire membuat kolaborasi jadi mudah, transparan, dan efisien.
+
+### 🚀 Fitur Utama
+
+* 🧪 **Posting Proyek Riset** dengan keahlian yang dibutuhkan, timeline, dan kompensasi
+* 👩‍💻 **Temukan Asisten Riset** berdasarkan bidang, tools, dan pengalaman sebelumnya
+* 💼 **Smart Matching** engine untuk merekomendasikan kandidat terbaik
+* 📝 **Workspace Kolaboratif** untuk manajemen tugas, file, dan feedback
+* 🔐 **Verifikasi & Kepercayaan** melalui email akademik atau ORCID ID
+* 📊 **Multi-domain Support**: AI/ML, ilmu sosial, eksperimen laboratorium, riset iklim, dan lainnya
 
 ---
 
-## 🧠 ResMatch – Research Assistant Finder Platform
+### 🛠️ Teknologi yang Digunakan
 
-**ResMatch** is a modern web platform designed to connect researchers with skilled assistants for academic or data-driven projects. Whether you're a professor seeking annotators, a data scientist in need of help with dataset labeling, or a student looking for meaningful research experience, ResMatch makes collaboration easy, transparent, and efficient.
-
-### 🚀 Features
-
-* 🧪 **Post Research Projects** with required skills, timeline, and compensation
-* 👩‍💻 **Find Research Assistants** based on field, tools, and past experience
-* 💼 **Smart Matching** engine to recommend the best candidates
-* 📝 **Collaborative Workspace** for managing tasks, files, and feedback
-* 🔐 **Verification & Trust** via academic email or ORCID ID
-* 📊 **Multi-domain Support**: AI/ML, social science, lab experiments, climate research, and more
+| Lapisan          | Teknologi                 |
+| ---------------- | ------------------------- |
+| Frontend         | Next.js, Tailwind CSS     |
+| Backend          | Express.js (Node.js)      |
+| Database         | PostgreSQL, Redis         |
+| Otentikasi       | Firebase Auth / ORCID     |
+| Penyimpanan File | AWS S3 / Firebase Storage |
+| Deployment       | Vercel / Railway / Fly.io |
 
 ---
 
-### 🛠️ Tech Stack
-
-| Layer        | Technology                |
-| ------------ | ------------------------- |
-| Frontend     | Next.js, Tailwind CSS     |
-| Backend      | Express.js (Node.js)      |
-| Database     | PostgreSQL, Redis         |
-| Auth         | Firebase Auth / ORCID     |
-| File Storage | AWS S3 / Firebase Storage |
-| Deployment   | Vercel / Railway / Fly.io |
-
----
-
-### 📂 Code Structure
+### 📂 Struktur Kode
 
 ```
-resmatch/
-├── frontend/          # Next.js web client
+brainhire/
+├── frontend/          # Next.js client web
 │   ├── pages/
 │   ├── components/
 │   └── utils/
-├── backend/           # Express API with REST endpoints
+├── backend/           # Express API dengan REST endpoints
 │   ├── routes/
 │   ├── models/
 │   └── controllers/
-├── prisma/            # PostgreSQL DB schema & migrations
-├── public/            # Static assets
-├── scripts/           # Seeders & utilities
+├── prisma/            # Skema & migrasi DB PostgreSQL
+├── public/            # Aset statis
+├── scripts/           # Seeder & utilitas
 └── README.md
 ```
 
@@ -52,25 +48,25 @@ resmatch/
 
 ### 📈 Roadmap
 
-* [x] MVP: Posting project & assistant profile
-* [x] Authentication (email + social)
-* [ ] Smart match system (tf-idf / embeddings)
-* [ ] Dashboard for task management
-* [ ] Chat & file sharing
-* [ ] Academic integration (ORCID, citation builder)
+* [x] MVP: Posting proyek & profil asisten
+* [x] Otentikasi (email + sosial)
+* [ ] Sistem smart match (tf-idf / embeddings)
+* [ ] Dashboard manajemen tugas
+* [ ] Fitur chat & berbagi file
+* [ ] Integrasi akademik (ORCID, pembuat sitasi)
 
 ---
 
-### 🤝 Contributing
+### 🤝 Kontribusi
 
-We welcome contributions from researchers, developers, and open-source enthusiasts. Check out our [CONTRIBUTING.md](./CONTRIBUTING.md) and feel free to open an issue or pull request.
-
----
-
-### 📄 License
-
-MIT License — see [LICENSE](./LICENSE) for details.
+Kami menyambut kontribusi dari peneliti, pengembang, dan penggemar open-source. Silakan cek [CONTRIBUTING.md](./CONTRIBUTING.md) dan jangan ragu buka issue atau pull request.
 
 ---
 
-Kalau kamu mau versi yang lebih formal, atau versi bilingual (Inggris–Indonesia), aku bisa bantu juga. Mau dilanjutkan ke *badges* atau *deployment guide* juga?
+### 📄 Lisensi
+
+MIT License — lihat [LICENSE](./LICENSE) untuk detail.
+
+---
+
+Kalau kamu mau, aku juga bisa bikinkan versi formal atau bilingual (Inggris–Indonesia). Mau lanjut ke bagian *badges* untuk README atau *deployment guide* dengan Next.js, Tailwind, NextAuth, Prisma, dan shadcn?
