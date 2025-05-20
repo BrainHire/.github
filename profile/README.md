@@ -8,8 +8,7 @@
 * 👩‍💻 **Temukan Asisten Riset** berdasarkan bidang, tools, dan pengalaman sebelumnya
 * 💼 **Smart Matching** engine untuk merekomendasikan kandidat terbaik
 * 📝 **Workspace Kolaboratif** untuk manajemen tugas, file, dan feedback
-* 🔐 **Verifikasi & Kepercayaan** melalui email akademik atau ORCID ID
-* 📊 **Multi-domain Support**: AI/ML, ilmu sosial, eksperimen laboratorium, riset iklim, dan lainnya
+* 🔐 **Verifikasi & Kepercayaan** melalui email akademik
 
 ---
 
@@ -18,11 +17,11 @@
 | Lapisan          | Teknologi                 |
 | ---------------- | ------------------------- |
 | Frontend         | Next.js, Tailwind CSS     |
-| Backend          | Express.js (Node.js)      |
-| Database         | PostgreSQL, Redis         |
-| Otentikasi       | Firebase Auth / ORCID     |
-| Penyimpanan File | AWS S3 / Firebase Storage |
-| Deployment       | Vercel / Railway / Fly.io |
+| Backend          | Next.js                   |
+| Database         | MySQL                     |
+| Otentikasi       | Next.Auth                 |
+| Penyimpanan File | Supabase                  |
+| Deployment       | Vercel / Railway          |
 
 ---
 
@@ -30,17 +29,17 @@
 
 ```
 brainhire/
-├── frontend/          # Next.js client web
+├── frontend/          
 │   ├── pages/
 │   ├── components/
 │   └── utils/
-├── backend/           # Express API dengan REST endpoints
+├── backend/           
 │   ├── routes/
 │   ├── models/
 │   └── controllers/
-├── prisma/            # Skema & migrasi DB PostgreSQL
-├── public/            # Aset statis
-├── scripts/           # Seeder & utilitas
+├── prisma/            
+├── public/            
+├── scripts/           
 └── README.md
 ```
 
@@ -50,10 +49,9 @@ brainhire/
 
 * [x] MVP: Posting proyek & profil asisten
 * [x] Otentikasi (email + sosial)
-* [ ] Sistem smart match (tf-idf / embeddings)
+* [ ] Sistem smart match
 * [ ] Dashboard manajemen tugas
-* [ ] Fitur chat & berbagi file
-* [ ] Integrasi akademik (ORCID, pembuat sitasi)
+* [ ] Integrasi akademik 
 
 ---
 
@@ -66,7 +64,3 @@ Kami menyambut kontribusi dari peneliti, pengembang, dan penggemar open-source. 
 ### 📄 Lisensi
 
 MIT License — lihat [LICENSE](./LICENSE) untuk detail.
-
----
-
-Kalau kamu mau, aku juga bisa bikinkan versi formal atau bilingual (Inggris–Indonesia). Mau lanjut ke bagian *badges* untuk README atau *deployment guide* dengan Next.js, Tailwind, NextAuth, Prisma, dan shadcn?
